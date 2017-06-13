@@ -1,0 +1,7 @@
+<launch>
+	<group ns="party_1">
+		<group ns="instance_1">
+			<node name="slam_test" pkg="test_laser_slam_1" type="test_slam_1" output="screen" />
+		</group>
+	</group>
+<launch>
